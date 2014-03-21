@@ -21,6 +21,8 @@
 		61677D5518DAC42300B75CA2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61677D3718DAC42300B75CA2 /* UIKit.framework */; };
 		61677D5D18DAC42300B75CA2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 61677D5B18DAC42300B75CA2 /* InfoPlist.strings */; };
 		61677D5F18DAC42300B75CA2 /* iBeaconSenderAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61677D5E18DAC42300B75CA2 /* iBeaconSenderAppTests.m */; };
+		61677D6918DAC46700B75CA2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61677D6818DAC46700B75CA2 /* CoreLocation.framework */; };
+		61677D6B18DAC52200B75CA2 /* refresh.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 61677D6A18DAC52200B75CA2 /* refresh.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		61677D5A18DAC42300B75CA2 /* iBeaconSenderAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iBeaconSenderAppTests-Info.plist"; sourceTree = "<group>"; };
 		61677D5C18DAC42300B75CA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		61677D5E18DAC42300B75CA2 /* iBeaconSenderAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iBeaconSenderAppTests.m; sourceTree = "<group>"; };
+		61677D6818DAC46700B75CA2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		61677D6A18DAC52200B75CA2 /* refresh.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = refresh.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61677D6918DAC46700B75CA2 /* CoreLocation.framework in Frameworks */,
 				61677D3618DAC42300B75CA2 /* CoreGraphics.framework in Frameworks */,
 				61677D3818DAC42300B75CA2 /* UIKit.framework in Frameworks */,
 				61677D3418DAC42300B75CA2 /* Foundation.framework in Frameworks */,
@@ -101,6 +106,7 @@
 		61677D3218DAC42300B75CA2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				61677D6818DAC46700B75CA2 /* CoreLocation.framework */,
 				61677D3318DAC42300B75CA2 /* Foundation.framework */,
 				61677D3518DAC42300B75CA2 /* CoreGraphics.framework */,
 				61677D3718DAC42300B75CA2 /* UIKit.framework */,
@@ -126,6 +132,7 @@
 		61677D3A18DAC42300B75CA2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				61677D6A18DAC52200B75CA2 /* refresh.jpeg */,
 				61677D3B18DAC42300B75CA2 /* iBeaconSenderApp-Info.plist */,
 				61677D3C18DAC42300B75CA2 /* InfoPlist.strings */,
 				61677D3F18DAC42300B75CA2 /* main.m */,
@@ -231,6 +238,7 @@
 				61677D4C18DAC42300B75CA2 /* Images.xcassets in Resources */,
 				61677D3E18DAC42300B75CA2 /* InfoPlist.strings in Resources */,
 				61677D4718DAC42300B75CA2 /* Main.storyboard in Resources */,
+				61677D6B18DAC52200B75CA2 /* refresh.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

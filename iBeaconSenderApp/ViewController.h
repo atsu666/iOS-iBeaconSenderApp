@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
+#import <CoreBluetooth/CoreBluetooth.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate, UITextFieldDelegate, CBPeripheralManagerDelegate>
+
+@property (weak, nonatomic) IBOutlet UIScrollView   *scrollView;
+@property (weak, nonatomic) IBOutlet UITableView    *tableView;
+@property (weak, nonatomic) IBOutlet UILabel        *statusLabel;
+@property (weak, nonatomic) IBOutlet UISwitch       *beaconSwitch;
+
+- (IBAction)beaconSwitchAction:(id)sender;
 
 @end
